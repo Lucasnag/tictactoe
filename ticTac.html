@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tic Tac Toe</title>
+   
+</head>
+<body>
+    <style>
+body {
+    font-family: "Arial", sans-serif;
+}
+
+section {
+    text-align:center;
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    width: 306px;
+    margin: 50px auto;
+}
+
+.cell {
+    font-family: "Permanent Marker", cursive;
+    width: 100px;
+    height: 100px;
+
+    border: 2px solid #e04b4b;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+    </style>
+    <section>
+        <h1 class="game--title">Tic Tac Toe</h1>
+        <div class="game--container">
+            <div data-cell-index="0" class="cell"></div>
+            <div data-cell-index="1" class="cell"></div>
+            <div data-cell-index="2" class="cell"></div>
+            <div data-cell-index="3" class="cell"></div>
+            <div data-cell-index="4" class="cell"></div>
+            <div data-cell-index="5" class="cell"></div>
+            <div data-cell-index="6" class="cell"></div>
+            <div data-cell-index="7" class="cell"></div>
+            <div data-cell-index="8" class="cell"></div>
+            <div data-cell-index="9" class="cell"></div>
+            <div data-cell-index="10" class="cell"></div>
+            <div data-cell-index="11" class="cell"></div>
+            <div data-cell-index="12" class="cell"></div>
+            <div data-cell-index="13" class="cell"></div>
+            <div data-cell-index="14" class="cell"></div>
+            <div data-cell-index="15" class="cell"></div>
+            <div data-cell-index="16" class="cell"></div>
+            <div data-cell-index="17" class="cell"></div>
+            <div data-cell-index="18" class="cell"></div>
+            <div data-cell-index="19" class="cell"></div>
+            <div data-cell-index="20" class="cell"></div>
+            <div data-cell-index="21" class="cell"></div>
+            <div data-cell-index="22" class="cell"></div>
+            <div data-cell-index="23" class="cell"></div>
+
+        </div>
+        <h2 class="game--status"></h2>
+        <button class="game--restart">Restart Game</button>
+    </section>
+
+    
+</body>
+<script src="ticTac.js"></script>
+</html>
